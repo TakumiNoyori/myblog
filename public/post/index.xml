@@ -1,18 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
-        <title>Posts on My New Hugo Site</title>
+        <title>Posts on Takumi Noyori</title>
         <link>http://localhost:1313/post/</link>
-        <description>Recent content in Posts on My New Hugo Site</description>
+        <description>Recent content in Posts on Takumi Noyori</description>
         <generator>Hugo -- gohugo.io</generator>
-        <language>en-us</language>
-        <lastBuildDate>Sun, 30 Nov 2025 15:39:51 +0900</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <language>ja</language>
+        <copyright>Takumi Noyori</copyright>
+        <lastBuildDate>Sun, 30 Nov 2025 18:39:54 +0900</lastBuildDate><atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>ホームページ開設について</title>
+        <link>http://localhost:1313/p/%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8%E9%96%8B%E8%A8%AD%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link>
+        <pubDate>Sun, 30 Nov 2025 18:39:54 +0900</pubDate>
+        
+        <guid>http://localhost:1313/p/%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8%E9%96%8B%E8%A8%AD%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid>
+        <description>&lt;p&gt;ホームページを開設しました。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>First Post</title>
-        <link>http://localhost:1313/post/first-post/</link>
+        <link>http://localhost:1313/p/first-post/</link>
         <pubDate>Sun, 30 Nov 2025 15:39:51 +0900</pubDate>
         
-        <guid>http://localhost:1313/post/first-post/</guid>
-        <description></description>
+        <guid>http://localhost:1313/p/first-post/</guid>
+        <description>&lt;h1 id=&#34;はじめに&#34;&gt;はじめに
+&lt;/h1&gt;&lt;p&gt;これはテストです。&lt;/p&gt;
+</description>
         </item>
         
     </channel>

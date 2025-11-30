@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>ブログ on Takumi Noyori</title>
+        <link>http://localhost:1313/categories/%E3%83%96%E3%83%AD%E3%82%B0/</link>
+        <description>Recent content in ブログ on Takumi Noyori</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>ja</language>
+        <copyright>Takumi Noyori</copyright>
+        <lastBuildDate>Sun, 30 Nov 2025 18:39:54 +0900</lastBuildDate><atom:link href="http://localhost:1313/categories/%E3%83%96%E3%83%AD%E3%82%B0/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>ホームページ開設について</title>
+        <link>http://localhost:1313/p/%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8%E9%96%8B%E8%A8%AD%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</link>
+        <pubDate>Sun, 30 Nov 2025 18:39:54 +0900</pubDate>
+        
+        <guid>http://localhost:1313/p/%E3%83%9B%E3%83%BC%E3%83%A0%E3%83%9A%E3%83%BC%E3%82%B8%E9%96%8B%E8%A8%AD%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6/</guid>
+        <description>&lt;p&gt;ホームページを開設しました。&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
