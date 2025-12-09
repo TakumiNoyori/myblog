@@ -2,8 +2,8 @@
 date = '2025-12-07T18:43:26+09:00'
 draft = false
 title = 'Matplotlib'
-categories = ["Python"]
-tags = []
+categories = ["データ解析"]
+tags = ["Python"]
 +++
 
 
