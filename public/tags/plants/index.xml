@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Plants on Takumi Noyori</title>
-        <link>http://localhost:1313/tags/plants/</link>
+        <link>https://TakumiNoyori.github.io./tags/plants/</link>
         <description>Recent content in Plants on Takumi Noyori</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>ja</language>
         <copyright>Takumi Noyori</copyright>
-        <lastBuildDate>Sun, 30 Nov 2025 15:39:51 +0900</lastBuildDate><atom:link href="http://localhost:1313/tags/plants/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 30 Nov 2025 15:39:51 +0900</lastBuildDate><atom:link href="https://TakumiNoyori.github.io./tags/plants/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>First Post</title>
-        <link>http://localhost:1313/p/first-post/</link>
+        <link>https://TakumiNoyori.github.io./p/first-post/</link>
         <pubDate>Sun, 30 Nov 2025 15:39:51 +0900</pubDate>
         
-        <guid>http://localhost:1313/p/first-post/</guid>
+        <guid>https://TakumiNoyori.github.io./p/first-post/</guid>
         <description>&lt;h1 id=&#34;はじめに&#34;&gt;はじめに
 &lt;/h1&gt;&lt;p&gt;これはテストです。&lt;/p&gt;
 </description>
