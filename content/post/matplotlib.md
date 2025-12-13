@@ -1,14 +1,10 @@
 +++
 date = '2025-12-07T18:43:26+09:00'
 draft = false
-title = 'Matplotlib'
+title = 'Matplotlib備忘録'
 categories = ["データ解析"]
 tags = ["Python"]
 +++
-
-
-# Matplotlib備忘録
-
 
 ## フォントの設定
 
@@ -26,6 +22,18 @@ plt.rcParams['font.size'] = 16
 plt.rcParams["figure.dpi"] = 200
 ```
 
+## 枠線の除去
+
+```
+# implicit interfaceの場合
+plt.gca().spines['right'].set_visible(False)
+plt.gca().spines['top'].set_visible(False)
+
+# explicit object-oriented (OO) interfaceの場合
+fig, ax = ~
+ax.spines["left"].set_visible(False)
+ax.spines["bottom"].set_visible(False)
+```
 
 
 適宜更新します。

@@ -8,13 +8,12 @@
         <language>ja</language>
         <copyright>Takumi Noyori</copyright>
         <lastBuildDate>Sun, 07 Dec 2025 18:43:26 +0900</lastBuildDate><atom:link href="https://TakumiNoyori.github.io./index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Matplotlib</title>
-        <link>https://TakumiNoyori.github.io./p/matplotlib/</link>
+        <title>Matplotlib備忘録</title>
+        <link>https://TakumiNoyori.github.io./p/matplotlib%E5%82%99%E5%BF%98%E9%8C%B2/</link>
         <pubDate>Sun, 07 Dec 2025 18:43:26 +0900</pubDate>
         
-        <guid>https://TakumiNoyori.github.io./p/matplotlib/</guid>
-        <description>&lt;h1 id=&#34;matplotlib備忘録&#34;&gt;Matplotlib備忘録
-&lt;/h1&gt;&lt;h2 id=&#34;フォントの設定&#34;&gt;フォントの設定
+        <guid>https://TakumiNoyori.github.io./p/matplotlib%E5%82%99%E5%BF%98%E9%8C%B2/</guid>
+        <description>&lt;h2 id=&#34;フォントの設定&#34;&gt;フォントの設定
 &lt;/h2&gt;&lt;p&gt;論文の図では基本的にArialを使用すればOK。&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
@@ -35,6 +34,29 @@
 &lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
 &lt;td class=&#34;lntd&#34;&gt;
 &lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;plt.rcParams[&amp;#34;figure.dpi&amp;#34;] = 200
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;&lt;h2 id=&#34;枠線の除去&#34;&gt;枠線の除去
+&lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
+&lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code&gt;&lt;span class=&#34;lnt&#34;&gt;1
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;2
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;3
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;4
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;5
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;6
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;7
+&lt;/span&gt;&lt;span class=&#34;lnt&#34;&gt;8
+&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;
+&lt;td class=&#34;lntd&#34;&gt;
+&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# implicit interfaceの場合
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;plt.gca().spines[&amp;#39;right&amp;#39;].set_visible(False)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;plt.gca().spines[&amp;#39;top&amp;#39;].set_visible(False)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;# explicit object-oriented (OO) interfaceの場合
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;fig, ax = ~
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ax.spines[&amp;#34;left&amp;#34;].set_visible(False)
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;ax.spines[&amp;#34;bottom&amp;#34;].set_visible(False)
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;
 &lt;/div&gt;
 &lt;/div&gt;&lt;p&gt;適宜更新します。&lt;/p&gt;
